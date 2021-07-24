@@ -17,6 +17,30 @@ padding:50 50 50 50px;
   margin: 0 auto;
 }
 
+.nav {
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 960;
+  height:40px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.url {
+  float: left;
+}
+
+.url a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.url a:hover {
+  background-color: #CC0;
+}	
 
 p{font-family:serif;
 color:#000;
@@ -32,14 +56,6 @@ ul {
   counter-reset: list;
   padding:0 0 0 0;
 }
-ul > li {
-  list-style: none;
-}
-ul > li:before {
-  content: "("counter(list, lower-roman)")  ";
-  counter-increment: list;
-}
-
 
 .order {
   counter-reset: list;
@@ -142,6 +158,12 @@ $\def\D{\displaystyle}$
 
 <body>
 <div class="bg-wrapper">
+
+<ul class="nav">
+  <li class="url"><a class="active" href="#home">Home</a></li>
+  <li class="url"><a href="#news">Trigo Questions</a></li>
+</ul>
+	
 <div class="content-wrapper">
 
 <div class="separator" style="clear: both; text-align: center;">
