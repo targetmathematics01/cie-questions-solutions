@@ -1,0 +1,500 @@
+<head> 
+   
+<style>
+.bg-wrapper{
+background-color:#034f02;
+padding:50 50 50 50px;
+}
+
+.content-wrapper {
+  background-color:#ebebeb;
+  text-align:justify;
+  max-width: 960;
+  border-radius:10px;
+  padding:30 30 30 30px;
+  margin: 0 auto;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 960;
+  height:40px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.url {
+  float: left;
+}
+
+.url a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.url a:hover {
+  background-color: #CC0;
+}
+
+p{font-family:serif;
+color:#000;
+}
+
+ol{
+text-align:justify;
+line-height:35px;
+color:#000;
+}
+
+ul {
+  counter-reset: list;
+  padding:0 0 0 0;
+}
+
+.order {
+  counter-reset: list;
+  padding:0 0 0 0;
+}
+.order > li {
+  list-style: none;
+}
+.order > li:before {
+  content: "("counter(list, lower-alpha)")  ";
+  counter-increment: list;
+}
+
+
+
+h1{
+text-align:center;
+color:#C00;
+}
+
+h3{
+text-align:center;
+color:#C00;
+}
+
+h3{
+text-align:left;
+color:#C00;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frame {
+  background-color:#ebebeb;
+  max-width: 300px;
+  border: 15px solid #1a170f;
+  padding: 50px;
+  margin: 0 auto;
+  box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.3);
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+
+.tg td{
+border-color:black;
+border-style:solid;
+border-width:0px;
+font-family:Times, 
+sans-serif;font-size:16px;
+overflow:hidden;
+padding:10px 5px;
+word-break:normal;
+}
+.tg th{
+border-color:black;
+border-style:solid;
+border-width:0px;
+font-family:Times, sans-serif;
+font-size:16px;
+font-weight:normal;
+overflow:hidden;padding:10px 5px;
+word-break:normal;
+}
+.tg .tg-zv4m{
+border-color:#ffffff;
+text-align:left;
+vertical-align:top;
+}
+@media screen and (max-width: 600px) 
+{
+.tg {width: auto !important;}
+.tg col {width: auto !important;}
+.tg-wrap{overflow-x: auto;-webkit-overflow-scrolling: touch;}
+}
+
+</style>
+
+<script type="text/x-mathjax-config">
+ 	 MathJax.Hub.Config({
+   		tex2jax: {
+     		inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      		processEscapes: true
+    	}
+ 	});
+</script>
+
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script
+  type="text/javascript"
+  charset="utf-8"
+  src="https://vincenttam.github.io/javascripts/MathJaxLocal.js">
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+$\def\D{\displaystyle}$
+</head>
+
+<body>
+
+
+<div class="bg-wrapper">
+
+<ul class="nav">
+  <li class="url"><a class="active" href="#home">Home</a></li>
+  <li class="url"><a href="#news">Trigo Questions</a></li>
+  
+</ul>
+
+<div class="content-wrapper">
+
+<ol>
+<li><h3>(CIE 2014,s,paper 13, question 9)</h3>
+Solve <br/>
+(i) $3\sin x\cos x=2\cos x$ for $0\le x\le 180^{\circ}.$ [4]<br/>
+(ii) $10\sin^2y+\cos y=8$ for $0\le y\le 360^{\circ}.$  [5]
+</li>
+
+
+<li>
+<h3>(CIE 2014, s, paper 23, question 7)</h3> 
+(a) Prove that $\dfrac{\tan \theta+\cot \theta}{\sec \theta+\operatorname{cosec} \theta}
+=\dfrac{1}{\sin \theta+\cos \theta}$. [3]<br/>
+(b) Given that $\tan x=-\dfrac{5}{12}$ and $90^{\circ}&lt;x&lt;180^{\circ}$, 
+find the exact value of $\sin x$ and of $\cos x$, giving each answer as a fraction.
+</li>
+
+<li>
+<h3>(CIE 2014, w, paper 11, question 11)</h3>
+(a) Solve $2 \cos 3 x=\cot 3 x$ for $0^{\circ} \le x \le 90^{\circ}$. [5]<br/>
+(b) Solve $\sec \left(y+\dfrac{\pi}{2}\right)=-2$ for $0 \le y \le \pi$ radians. [4]
+</li>
+
+<li>
+<h3>(CIE 2014, w, paper 13 , question 4)</h3>
+(a) Solve $3 \sin x+5 \cos x=0$ for $0^{\circ} \le x \le 360^{\circ}$. [3]<br/>
+(b) Solve $\operatorname{cosec}\left(3 y+\dfrac{\pi}{4}\right)=2$ for $0 \le y \le \pi$ radians. [5]
+</li>
+
+<li>
+ <h3>(CIE 2014, w, paper 21, question 10)</h3>
+(i) Prove that $\quad \sec x \operatorname{cosec} x-\cot x=\tan x$. $[4]$<br/>
+(ii) Use the result from part (i) to solve the equation $\sec x \operatorname{cosec} x=3 \cot x$ for $0^{\circ}&lt;x&lt;360^{\circ}$. [4]
+</li>
+
+<li>
+<h3>(CIE 2014, w, paper 23, question 10)</h3>
+(i) Prove that $\dfrac{1}{1-\cos x}+\dfrac{1}{1+\cos x}=2 \operatorname{cosec}^{2} x$. [3]<br/>
+(ii) Hence solve the equation $\dfrac{1}{1-\cos x}+\dfrac{1}{1+\cos x}=8$ for $0^{\circ}&lt; x &lt;360^{\circ}$. $[4]$
+</li>
+
+
+</li>
+<h3>(CIE 2015, s, paper 11, question 10)</h3>
+(a) Solve $4 \sin x=\operatorname{cosec} x \quad$ for $0^{\circ} \le x \le 360^{\circ}$. [3]
+<br/>
+(b) Solve $\tan ^{2} 3 y-2 \sec 3 y-2=0 \quad$ for $0^{\circ} \le y \le 180^{\circ}$. [6]
+<br/>
+(c) Solve $\tan \left(z-\dfrac{\pi}{3}\right)=\sqrt{3} \quad$ for $0 \le z \le 2 \pi$ radians. $[3]$
+</li>
+
+<li>
+<h3>(CIE 2015, s, paper 12, question 2)</h3>
+Show that $\dfrac{\tan \theta+\cot \theta}{\operatorname{cosec} \theta}=\sec \theta$
+</li>
+
+<li>
+ <h3>(CIE 2015, s, paper 12, question 10)</h3>
+(a) Solve $2 \cos 3 x=\sec 3 x$ for $0^{\circ} \le x \le 120^{\circ}$. [3]
+<br/>
+(b) Solve $\quad 3 \operatorname{cosec}^{2} y+5 \cot y-5=0$ for $0^{\circ} \le y \le 360^{\circ}$ [5]
+<br/>
+(c) Solve $2 \sin \left(z+\frac{\pi}{3}\right)=1$ for $0 \le z \le 2 \pi$ radians. $[4]$
+</li>
+
+<li>
+<h3>(CIE 2015, w, paper 11, question 3)</h3>
+Show that $\sqrt{\sec ^{2} \theta-1}+\sqrt{\operatorname{cosec}^{2} \theta-1}=\sec \theta \operatorname{cosec} \theta$.
+</li>
+
+<li>
+<h3>(CIE 2015, w, paper 13, question 2)
+ Solve $2 \cos ^{2}\left(3 x-\dfrac{\pi}{4}\right)=1 \quad$ for $0 \le x \le \dfrac{\pi}{3}$.
+</li>
+
+<li>
+<h3>(CIE 2015, w, paper 21, question 9)</h3>
+Solve the following equations.<br/>
+(i) $4 \sin 2 x+5 \cos 2 x=0 \quad$ for $0^{\circ} \le x \le 180^{\circ}$ [3]<br/>
+
+(ii) $\cot ^{2} y+3 \operatorname{cosec} y=3 \quad$ for $0^{\circ} \le y \le 360^{\circ}$ $[5]$
+<br/>
+(iii) $\cos \left(z+\dfrac{\pi}{4}\right)=-\dfrac{1}{2} \quad$ for $0 \le z \le 2 \pi$ radians, giving each answer as a multiple of $\pi$ $[4]$
+</li>
+
+<li>
+<h3>(CIE 2015, w, paper 23, question 8)</h3>
+(i) Prove that $\sec ^{2} x+\operatorname{cosec}^{2} x=\sec ^{2} x \operatorname{cosec}^{2} x$. [4]
+<br/>
+(ii) Hence, or otherwise, solve $\sec ^{2} x+\operatorname{cosec}^{2} x=4 \tan ^{2} x \quad$ for $90^{\circ}&lt; x &lt;270^{\circ}$. $[4]$
+</li>
+
+<li>
+<h3>(CIE 2016, march, paper 12, question 11)</h3>
+(i) Show that $\dfrac{1}{\operatorname{cosec} \theta-1}-\dfrac{1}{\operatorname{cosec} \theta+1}=2 \tan ^{2} \theta$. [4]
+<br/>
+(ii) Hence solve $\dfrac{1}{\operatorname{cosec} \theta-1}-\dfrac{1}{\operatorname{cosec} \theta+1}=6+\tan 0 \quad$ for $0^{\circ}<0<360^{\circ}$. $[4]$
+</li>
+
+<li>
+<h3>(CIE 2016, march, paper 22, question 9)</h3>
+
+$P Q R S$ is a quadrilateral with $P S$ parallel to $Q R$. The perimeter of $P Q R S$ is $3 \mathrm{~m}$. The length of $P Q$ is $1 \mathrm{~m}$ and the length of $P S$ is $x \mathrm{~m}$. The point $T$ is on $Q R$ such that $S T$ is parallel to $P Q$. Angle $S R T$ is $\theta$ radians.
+(i) Find an expression for $x$ in terms of 0 . [3]
+<br/>
+(ii) Show that the area, $A \mathrm{~m}^{2}$, of $P Q R S$ is given by $A=1-\dfrac{\operatorname{cosec} \theta}{2}$.
+<br/>
+(iii) Hence find the exact value of $\theta$ when $A=\left(1-\begin{array}{c}\sqrt{3} \\ 3\end{array}\right) \mathrm{m}^{2}$.
+</li>
+
+<li>
+<h3>(CIE 2016, s, paper 11, question 9)</h3>
+(i) Show that $2 \cos x \cot x+1=\cot x+2 \cos x$ can be written in the form $(a \cos x-b)(\cos x-\sin x)=0$, where $a$ and $b$ are constants to be found.
+<br/>
+(ii) Hence, or otherwise, solve $2 \cos x \cot x+1=\cot x+2 \cos x$ for $0&lt; x &lt;\pi$. $|3|$
+</li>
+
+
+<li>
+<h3>(CIE 2016, s, paper 12, question 5)</h3>
+(i) Show that $(1-\cos \theta)(1+\sec \theta)=\sin \theta \tan \theta$
+<br/>
+(ii) Hence solve the equation $(1-\cos \theta)(1+\sec \theta)=\sin \theta \quad$ for $0 \le \theta \le \pi$ radians. $[3]$
+</li>
+
+<li>
+<h3>(CIE 2016, s, paper 22, question 12)</h3>
+Solve the equation<br/>
+(i) $8 \sin ^{2} A+2 \cos A=7$ for $0^{\circ} \le A \le 180^{\circ}$, [4]
+<br/>
+(ii) $\operatorname{cosec}(3 B+1)=2.5$ for $0 \le B \le \pi$ radians. [4]
+</li>
+
+
+<li>
+<h3>(CIE $2016, \mathrm{w}$, paper 13 , question 8 )</h3>
+(a) 	(i) Show that $\dfrac{\operatorname{cosec} \theta}{\operatorname{cosec} \theta-\sin \theta}=\sec ^{2} \theta$. [3]
+<br/>
+	(ii) Hence solve $\dfrac{\operatorname{cosec} \theta}{\operatorname{cosec} \theta-\sin \theta}=4$ for $0^{\circ}<0<360^{\circ}$. [3]
+<br/>
+(b) 	Solve $\sqrt{3} \tan \left(x+\dfrac{\pi}{4}\right)=1$ for $0&lt; x &lt;2 \pi$, giving your answers in terms of $\pi$. [3]
+</li>
+
+<li>
+<h3>(CIE 2016, w, paper 21, question 6)</h3>
+(i) Prove that $\dfrac{\cos x}{1+\tan x}-\dfrac{\sin x}{1+\cot x}=\cos x-\sin x$. $[4]$
+<br/>
+(ii) Hence solve the equation $\frac{\cos x}{1+\tan x}-\dfrac{\sin x}{1+\cot x}=3 \sin x-4 \cos x$ for $-180^{\circ}&lt; x &lt;180^{\circ}$. [4]
+</li>
+
+
+<li>
+<h3>(CIE $2016, \mathrm{w}$, paper 23 , question 6 )</h3> 
+
+A curve has equation $y=7+\tan x .$ Find
+(i) the equation of the tangent to the curve at the point where $x=\frac{\pi}{4}$, $|4|$
+<br/>
+(ii) the values of $x$ between 0 and $\pi$ radians for which $\dfrac{\mathrm{d} y}{\mathrm{~d} x}=y$. [4]
+</li>
+
+
+<li>
+<h3>(CIE 2017, march, paper 12, question 5)</h3>
+(i) Show that $\operatorname{cosec} \theta-\sin \theta=\cot \theta \cos \theta$. [3]
+<br/>
+(ii) Hence solve the equation $\operatorname{cosec} \theta-\sin \theta=\dfrac{1}{3} \cos \theta$, for $0 \le \theta \le 2 \pi$ radians. [4]
+</li>
+
+
+<li>
+<h3>(CIE 2017, march, paper 22, question 10)</h3>
+Solve, for $0^{\circ} \le x \le 360^{\circ}$, the equation
+<br/>
+(i) $\cot \left(2 x-10^{\circ}\right)=\dfrac{3}{4}$, [4]
+<br/>
+(ii) $\sin ^{2} x-\cos ^{2} x=\cos x$. $[5]$
+</li>
+
+<li>
+<h3>(CIE 2017, s, paper 13, question 2)</h3>
+Given that $y=3+4 \cos 9 x$, write down
+<br/>
+(i) the amplitude of $y$, $[1]$
+<br/>
+(ii) the period of $y$. [1]
+</li>
+
+
+<li>
+<h3>(CIE 2017, s, paper 13, question 7)</h3>
+(a) Show that $\dfrac{\tan ^{2} \theta+\sin ^{2} \theta}{\cos \theta+\sec \theta}=\tan \theta \sin \theta$. [4]
+<br/>
+(b) Given that $x=3 \sin \phi$ and $y=\dfrac{3}{\cos \phi}$, find the numerical value of $9 y^{2}-x^{2} y^{2}$.[3]
+</li>
+ 
+ 
+<li>
+<h3>(CIE $2017, \mathrm{~s}$, paper 21 , question 11)</h3>
+(i) Prove that $\sin x(\cot x+\tan x)=\sec x$[4]
+<br/>
+(ii) Hence solve the equation $|\sin x(\cot x+\tan x)|=2$ for $0^{\circ} \le x \le 360^{\circ}$. [4]
+</li>
+
+
+<li>
+<h3>(CIE 2017, s, paper 22, question 10)</h3> 
+
+Solve the equation<br/>
+(i) $4 \sin \left(3 x-\dfrac{\pi}{4}\right)=3$ for $0 \le x \le \dfrac{\pi}{2}$ radians, $[4]$
+<br/>
+(ii) $2 \tan ^{2} y+\sec ^{2} y=14 \sec y+3$ for $0^{\circ} \le y \le 360^{\circ}$. $[5]$
+</li>
+
+<li>
+<h3>(CIE 2017, s, paper 23, question 10) </h3>
+Solve the equation
+(a) $2|\sin x|=1$ for $-\pi \le x \le \pi$ radians, [3]
+<br/>
+(b) $3 \tan \left(2 y+15^{\circ}\right)=1$ for $0^{\circ} \le y \le 180^{\circ}$, [4]
+<br/>
+(c) $3 \cot ^{2} z=\operatorname{cosec}^{2} z-7 \operatorname{cosec} z+1$ for $0^{\circ} \le z \le 360^{\circ}$. [5]
+</li>
+
+<li>
+<h3>(CIE 2017, w, paper 11, question 10)</h3>
+(a) Solve $3 \operatorname{cosec} 2 x-4 \sin 2 x=0$ for $0^{\circ} \le x \le 180^{\circ}$.  $[4]$
+<br/>
+(b) Solve $3 \tan \left(y-\dfrac{\pi}{4}\right)=\sqrt{3}$ for $0 \le y \le 2 \pi$ radians, giving your answers in terms of $\pi$. [4]
+</li>
+
+<li>
+<h3>(CIE $2017, \mathrm{w}$, paper 12 , question 11)</h3>
+(a) Solve $2 \cot \left(\phi+35^{\circ}\right)=5$ for $0^{\circ} \le \phi \le 360^{\circ}$. [4]
+<br/>
+(b) (i) Show that $\dfrac{\sec \theta}{\cot \theta+\tan \theta}=\sin \theta$. [3]
+<br/>
+(ii) Hence solve $\dfrac{\sec 3 \theta}{\cot 3 \theta+\tan 3 \theta}=-\dfrac{\sqrt{3}}{2}$ for $-\dfrac{\pi}{2} \le \theta \le \frac{\pi}{2}$, giving your answers in terms of $\pi$. [4]
+</li>
+
+<li>
+<h3>(CIE $2017, \mathrm{w}$, paper 13 , question 1)</h3>
+Given that $y=2 \sec ^{2} \theta$ and $x=\tan \theta-5$, express $y$ in terms of $x .$
+</li>
+
+<li>
+<h3>(CIE 2017, w, paper 13, question 4)</h3> 
+
+The graph of $y=a \cos (b x)+c$ has an amplitude of 3, a period of $\dfrac{\pi}{4}$ and passes through the point $\left(\dfrac{\pi}{12}, \dfrac{5}{2}\right)$. Find the value of each of the constants $a, b$ and $c$. 
+</li>
+
+
+<li>
+<h3>(CIE 2017, w, paper 21, question 2)</h3> 
+Show that $\dfrac{1}{1-\sin \theta}-\dfrac{1}{1+\sin \theta}=2 \tan \theta \sec \theta .$
+</li>
+
+<li>
+<h3>(CIE $2017, \mathrm{w}$, paper 23 , question 10)</h3> 
+(a) Show that $\dfrac{\sin x}{1+\cos x}+\dfrac{1+\cos x}{\sin x}=2 \operatorname{cosec} x$. $[3]$ 
+<br/>
+(b) Solve the following equations. 
+<br/>
+(i) $\cot ^{2} y+\operatorname{cosec} y-5=0 \quad$ for $0^{\circ} \le y \le 360^{\circ}$ [5]
+<br/>
+(ii) $\cos \left(2 z+\dfrac{\pi}{4}\right)=-\dfrac{\sqrt{3}}{2}$ for $0 \le z \le \pi$ radians 
+</li>
+
+
+<li>
+<h3>(CIE 2018, march, paper 12, question 3)</h3> 
+Do not use a calculator in this question. 
+<br/>
+(a) Simplify $\dfrac{(3+2 \sqrt{5})(6-2 \sqrt{5})}{(4-\sqrt{5})}$, giving your answer in the form $a+b \sqrt{5}$, where $a$ and $b$ are $\begin{array}{ll}\text { integers. } & {[3]}\end{array}$ 
+<br/>
+(b) In this part, all lengths are in centimetres. The diagram shows the triangle $A B C$ with $A B=6-2 \sqrt{3}$ and $B C=6+2 \sqrt{3}$. Given that $\cos A B C=-\dfrac{1}{2}$, find the length of $A C$ in the form $c \sqrt{d}$, where $c$ and $d$ are integers. 
+</li>
+
+<li>
+<h3>(CIE 2018, march, paper 22, question 11) </h3>
+(a) (i) Show that $\dfrac{(1-\sin A)(1+\sin A)}{\sin A \cos A}=\cot A$. [2] 
+<br/>
+(ii) Hence solve $\dfrac{(1-\sin 3 x)(1+\sin 3 x)}{\sin 3 x \cos 3 x}=\dfrac{1}{2}$ for $0^{\circ} \le x \le 180^{\circ}$. [4] 
+<br/>
+(b) Solve $10 \tan ^{2} y-\sec y-1=0$ for $0 \le y \le 2 \pi$ radians. [5] 
+</li>
+
+<li>
+<h3>(CIE 2018, s, paper 12, question 8) </h3>
+(a) Solve $3 \cos ^{2} \theta+4 \sin \theta=4$ for $0^{\circ} \le \theta \le 180^{\circ}$. [4] 
+<br/>
+(b) Solve $\sin 2 \phi=\sqrt{3} \cos 2 \phi$ for $-\dfrac{\pi}{2} \le \phi \le \dfrac{\pi}{2}$ radians. $[4]$
+</li>
+
+<li>
+<h3>(CIE} 2018, s, paper 12, question 10)</h3> 
+Do not use a calculator in this question.
+<br/>
+All lengths in this question are in centimetres.
+<br/>
+The diagram shows the triangle $A B C$, where $A B=4 \sqrt{3}-5, B C=4 \sqrt{3}+5$ and angle $A B C=60^{\circ}$. It is known that $\sin 60^{\circ}=\dfrac{\sqrt{3}}{2}, \cos 60^{\circ}=\dfrac{1}{2}, \tan 60^{\circ}=\sqrt{3}$.
+<br/>
+(i) Find the exact value of $A C$.
+<br/>
+(ii) Hence show that $\operatorname{cosec} A C B=\dfrac{2 \sqrt{p}}{q}(4 \sqrt{3}+5)$, where $p$ and $q$ are integers.
+</li>
+
+
+<li>
+<h3>(CIE 2018, s, paper 21, question 11)</h3>
+(a) Solve $10 \cos ^{2} x+3 \sin x=9$ for $0^{\circ}&lt; x &lt;360^{\circ}$.$[5]$
+<br/>
+(b) Solve $3 \tan 2 y=4 \sin 2 y$ for $0<y<\pi$ radians.$[5]$
+</li>
+
+<li>
+<h3>(CIE 2018, s, paper 22 , question 1)</h3>
+(i) Show that $\cos \theta \cot \theta+\sin \theta=\operatorname{cosec} \theta$.[3\rfloor
+<br/>
+(ii) Hence solve $\cos \theta \cot \theta+\sin \theta=4$ for $0^{\circ} \le \theta \le 90^{\circ}$.[2]
+</li>
+</ol>
+
+
+</div>
+</div>
+
+</body>
